@@ -1,0 +1,187 @@
+estudiante05@ciem19-05 MINGW64 ~
+$ ls
+'3D Objects'/
+ AppData/
+'Configuración local'@
+ Contacts/
+ Cookies@
+'Counter-Strike Source'/
+'Datos de programa'@
+ Desktop/
+ Documents/
+ Downloads/
+'Entorno de red'@
+ Favorites/
+'Johan Tzul 2.psc'
+'Johan Tzul 3.psc'
+'Johan Tzul 4.py'
+ Impresoras@
+ IntelGraphicsProfiles/
+ Links/
+'Menú Inicio'@
+ MicrosoftEdgeBackups/
+'Mis documentos'@
+ Music/
+ NTUSER.DAT
+ NTUSER.DAT{9982dbba-8bcd-11ee-9a39-00155dda33a5}.TxR.0.regtrans-ms
+ NTUSER.DAT{9982dbba-8bcd-11ee-9a39-00155dda33a5}.TxR.1.regtrans-ms
+ NTUSER.DAT{9982dbba-8bcd-11ee-9a39-00155dda33a5}.TxR.2.regtrans-ms
+ NTUSER.DAT{9982dbba-8bcd-11ee-9a39-00155dda33a5}.TxR.blf
+ NTUSER.DAT{9982dbbb-8bcd-11ee-9a39-00155dda33a5}.TM.blf
+ NTUSER.DAT{9982dbbb-8bcd-11ee-9a39-00155dda33a5}.TMContainer00000000000000000001.regtrans-ms
+ NTUSER.DAT{9982dbbb-8bcd-11ee-9a39-00155dda33a5}.TMContainer00000000000000000002.regtrans-ms
+ OneDrive/
+ Pictures/
+ Plantillas@
+ Reciente@
+'Saved Games'/
+ Searches/
+ SendTo@
+ Tracing/
+ Videos/
+'VirtualBox VMs'/
+ a/
+ mi-proyecto-react/
+ ntuser.dat.LOG1
+ ntuser.dat.LOG2
+ ntuser.ini
+ papu/
+ pseint/
+ soup.py
+ source/
+
+estudiante05@ciem19-05 MINGW64 ~
+$ cd
+
+estudiante05@ciem19-05 MINGW64 ~
+$ cd Desktop
+
+estudiante05@ciem19-05 MINGW64 ~/Desktop
+$ cd Examen_C
+
+estudiante05@ciem19-05 MINGW64 ~/Desktop/Examen_C
+$ mkdir EXAMENC
+
+estudiante05@ciem19-05 MINGW64 ~/Desktop/Examen_C
+$ cd EXAMENC
+
+estudiante05@ciem19-05 MINGW64 ~/Desktop/Examen_C/EXAMENC
+$ git init
+Initialized empty Git repository in C:/Users/estudiante05/Desktop/Examen_C/EXAMENC/.git/
+
+estudiante05@ciem19-05 MINGW64 ~/Desktop/Examen_C/EXAMENC (master)
+$ git branch -m main
+
+estudiante05@ciem19-05 MINGW64 ~/Desktop/Examen_C/EXAMENC (main)
+$ echo "# Repositorio EXAMENC" > README.md
+
+estudiante05@ciem19-05 MINGW64 ~/Desktop/Examen_C/EXAMENC (main)
+$ git add README.md
+warning: in the working copy of 'README.md', LF will be replaced by CRLF the next time Git touches it
+
+estudiante05@ciem19-05 MINGW64 ~/Desktop/Examen_C/EXAMENC (main)
+$ git commit -m "Commit inicial: Creación del README"
+[main (root-commit) 262a652] Commit inicial: Creación del README
+ 1 file changed, 1 insertion(+)
+ create mode 100644 README.md
+
+estudiante05@ciem19-05 MINGW64 ~/Desktop/Examen_C/EXAMENC (main)
+$ git branch Equipo1
+
+estudiante05@ciem19-05 MINGW64 ~/Desktop/Examen_C/EXAMENC (main)
+$ git checkout Equipo1
+Switched to branch 'Equipo1'
+
+estudiante05@ciem19-05 MINGW64 ~/Desktop/Examen_C/EXAMENC (Equipo1)
+$ touch Programa1.c
+
+estudiante05@ciem19-05 MINGW64 ~/Desktop/Examen_C/EXAMENC (Equipo1)
+$ git add Programa1.c
+
+estudiante05@ciem19-05 MINGW64 ~/Desktop/Examen_C/EXAMENC (Equipo1)
+$ git commit -m "Primera Rama y archivo"
+[Equipo1 c627c55] Primera Rama y archivo
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 Programa1.c
+
+estudiante05@ciem19-05 MINGW64 ~/Desktop/Examen_C/EXAMENC (Equipo1)
+$ git switch main
+Switched to branch 'main'
+
+estudiante05@ciem19-05 MINGW64 ~/Desktop/Examen_C/EXAMENC (main)
+$ git branch Equipo2
+
+estudiante05@ciem19-05 MINGW64 ~/Desktop/Examen_C/EXAMENC (main)
+$ git checkout Equipo2
+Switched to branch 'Equipo2'
+
+estudiante05@ciem19-05 MINGW64 ~/Desktop/Examen_C/EXAMENC (Equipo2)
+$ touch Programa2.c
+
+estudiante05@ciem19-05 MINGW64 ~/Desktop/Examen_C/EXAMENC (Equipo2)
+$ git add Programa2.c
+
+estudiante05@ciem19-05 MINGW64 ~/Desktop/Examen_C/EXAMENC (Equipo2)
+$ git commit -m "Segunda rama y archivo"
+[Equipo2 1ada6b8] Segunda rama y archivo
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 Programa2.c
+
+estudiante05@ciem19-05 MINGW64 ~/Desktop/Examen_C/EXAMENC (Equipo2)
+$ git switch main
+Switched to branch 'main'
+
+estudiante05@ciem19-05 MINGW64 ~/Desktop/Examen_C/EXAMENC (main)
+$ git branch Equipo3
+
+estudiante05@ciem19-05 MINGW64 ~/Desktop/Examen_C/EXAMENC (main)
+$ git checkout Equipo3
+Switched to branch 'Equipo3'
+
+estudiante05@ciem19-05 MINGW64 ~/Desktop/Examen_C/EXAMENC (Equipo3)
+$ touch Programa3.c
+
+estudiante05@ciem19-05 MINGW64 ~/Desktop/Examen_C/EXAMENC (Equipo3)
+$ git add Programa3.c
+
+estudiante05@ciem19-05 MINGW64 ~/Desktop/Examen_C/EXAMENC (Equipo3)
+$ git commit -m "Tercera rama y archivo"
+[Equipo3 8c6b3a0] Tercera rama y archivo
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 Programa3.c
+
+estudiante05@ciem19-05 MINGW64 ~/Desktop/Examen_C/EXAMENC (Equipo3)
+$ git switch Equipo1
+Switched to branch 'Equipo1'
+
+estudiante05@ciem19-05 MINGW64 ~/Desktop/Examen_C/EXAMENC (Equipo1)
+$ git add Programa1.c
+
+estudiante05@ciem19-05 MINGW64 ~/Desktop/Examen_C/EXAMENC (Equipo1)
+$ git add Programa1.exe
+
+estudiante05@ciem19-05 MINGW64 ~/Desktop/Examen_C/EXAMENC (Equipo1)
+$ git commit -m "Primer codigo agregado"
+[Equipo1 885d618] Primer codigo agregado
+ 2 file changed, 129 insertions(+)
+
+estudiante05@ciem19-05 MINGW64 ~/Desktop/Examen_C/EXAMENC (Equipo1)
+$ git switch Equipo2
+Switched to branch 'Equipo2'
+
+estudiante05@ciem19-05 MINGW64 ~/Desktop/Examen_C/EXAMENC (Equipo2)
+$ git add Programa2.c
+
+estudiante05@ciem19-05 MINGW64 ~/Desktop/Examen_C/EXAMENC (Equipo2)
+$ git add estudiantes.txt
+
+estudiante05@ciem19-05 MINGW64 ~/Desktop/Examen_C/EXAMENC (Equipo2)
+$ git add Programa2.exe
+
+estudiante05@ciem19-05 MINGW64 ~/Desktop/Examen_C/EXAMENC (Equipo2)
+$ git commit -m "Segundo codigo agregado"
+[Equipo2 0edb0f4] Segundo codigo agregado
+ 3 files changed, 188 insertions(+)
+ create mode 100644 Programa2.exe
+ create mode 100644 estudiantes.txt
+
